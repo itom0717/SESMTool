@@ -43,7 +43,7 @@ Partial Class MainForm
     Me.CloseButton.Location = New System.Drawing.Point(345, 335)
     Me.CloseButton.Name = "CloseButton"
     Me.CloseButton.Size = New System.Drawing.Size(61, 26)
-    Me.CloseButton.TabIndex = 0
+    Me.CloseButton.TabIndex = 10
     Me.CloseButton.Text = "閉じる"
     Me.CloseButton.UseVisualStyleBackColor = True
     '
@@ -54,7 +54,7 @@ Partial Class MainForm
     Me.ModIDListBox.Location = New System.Drawing.Point(16, 100)
     Me.ModIDListBox.Name = "ModIDListBox"
     Me.ModIDListBox.Size = New System.Drawing.Size(123, 232)
-    Me.ModIDListBox.TabIndex = 1
+    Me.ModIDListBox.TabIndex = 3
     '
     'ModIDLabel
     '
@@ -79,7 +79,7 @@ Partial Class MainForm
     Me.SetModButton.Location = New System.Drawing.Point(206, 52)
     Me.SetModButton.Name = "SetModButton"
     Me.SetModButton.Size = New System.Drawing.Size(123, 25)
-    Me.SetModButton.TabIndex = 4
+    Me.SetModButton.TabIndex = 6
     Me.SetModButton.Text = "Save SaveData"
     Me.SetModButton.UseVisualStyleBackColor = True
     '
@@ -88,7 +88,7 @@ Partial Class MainForm
     Me.LoadModButton.Location = New System.Drawing.Point(206, 336)
     Me.LoadModButton.Name = "LoadModButton"
     Me.LoadModButton.Size = New System.Drawing.Size(123, 26)
-    Me.LoadModButton.TabIndex = 5
+    Me.LoadModButton.TabIndex = 9
     Me.LoadModButton.Text = "Mod一覧読込"
     Me.LoadModButton.UseVisualStyleBackColor = True
     '
@@ -97,7 +97,7 @@ Partial Class MainForm
     Me.SaveModButton.Location = New System.Drawing.Point(16, 336)
     Me.SaveModButton.Name = "SaveModButton"
     Me.SaveModButton.Size = New System.Drawing.Size(123, 26)
-    Me.SaveModButton.TabIndex = 6
+    Me.SaveModButton.TabIndex = 4
     Me.SaveModButton.Text = "Mod一覧保存"
     Me.SaveModButton.UseVisualStyleBackColor = True
     '
@@ -107,7 +107,7 @@ Partial Class MainForm
     Me.SessionNameLabel.Location = New System.Drawing.Point(12, 9)
     Me.SessionNameLabel.Name = "SessionNameLabel"
     Me.SessionNameLabel.Size = New System.Drawing.Size(74, 12)
-    Me.SessionNameLabel.TabIndex = 7
+    Me.SessionNameLabel.TabIndex = 0
     Me.SessionNameLabel.Text = "SessionName"
     '
     'SessionNameTextBox
@@ -119,7 +119,7 @@ Partial Class MainForm
     Me.SessionNameTextBox.Name = "SessionNameTextBox"
     Me.SessionNameTextBox.ReadOnly = True
     Me.SessionNameTextBox.Size = New System.Drawing.Size(388, 19)
-    Me.SessionNameTextBox.TabIndex = 8
+    Me.SessionNameTextBox.TabIndex = 1
     Me.SessionNameTextBox.Text = "SessionNameTextBox"
     '
     'NewModIDListBox
@@ -129,7 +129,7 @@ Partial Class MainForm
     Me.NewModIDListBox.Location = New System.Drawing.Point(206, 100)
     Me.NewModIDListBox.Name = "NewModIDListBox"
     Me.NewModIDListBox.Size = New System.Drawing.Size(123, 232)
-    Me.NewModIDListBox.TabIndex = 10
+    Me.NewModIDListBox.TabIndex = 8
     '
     'NewModIDLabel
     '
@@ -137,7 +137,7 @@ Partial Class MainForm
     Me.NewModIDLabel.Location = New System.Drawing.Point(204, 85)
     Me.NewModIDLabel.Name = "NewModIDLabel"
     Me.NewModIDLabel.Size = New System.Drawing.Size(129, 12)
-    Me.NewModIDLabel.TabIndex = 11
+    Me.NewModIDLabel.TabIndex = 7
     Me.NewModIDLabel.Text = "置換するMOD一覧({0}件)"
     '
     'Label1
@@ -146,7 +146,7 @@ Partial Class MainForm
     Me.Label1.Location = New System.Drawing.Point(155, 197)
     Me.Label1.Name = "Label1"
     Me.Label1.Size = New System.Drawing.Size(35, 12)
-    Me.Label1.TabIndex = 12
+    Me.Label1.TabIndex = 5
     Me.Label1.Text = "---->"
     Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
     '
