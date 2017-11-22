@@ -235,10 +235,10 @@
     Using sr As New System.IO.StreamReader(filename, System.Text.Encoding.UTF8)
       While sr.Peek() > -1
         Dim id As String = sr.ReadLine()
-        If Not System.Text.RegularExpressions.Regex.IsMatch(id, "^\d{9}$") Then
-          Continue While
-        End If
-        modIDList.Add(id)
+                If Not System.Text.RegularExpressions.Regex.IsMatch(id, "^\d+$") Then
+                    Continue While
+                End If
+                modIDList.Add(id)
       End While
       sr.Close()
     End Using
